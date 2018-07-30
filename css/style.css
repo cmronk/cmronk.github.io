@@ -18,7 +18,17 @@ a {
   background: #403F4C;
 }
 
+.img-fluid {
+  width: 400px;
+  max-height: 275px;
+}
+/* #canvas-wrap { 
+  position:relative; width:800px; height:600px 
+}
 
+#canvas-wrap canvas { 
+  position:absolute; top:0; left:0; z-index:0 
+} */
 
 /* portfolio styling from bootstrap template */
 #portfolio .portfolio-item {
