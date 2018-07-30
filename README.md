@@ -5,7 +5,7 @@ Technologies utilized in my portfolio include:
 
 * [Bootstrap](http://getbootstrap.com/)
 
-Check it out *[here](https://cmronk.github.io/)
+Check it out [here](https://cmronk.github.io/)
 
 
 
