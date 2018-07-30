@@ -1,4 +1,13 @@
-# circular-motion-canvas
+# My Portfolio
 
-Canvas Boilerplate cloned from [here](https://github.com/christopher4lis/canvas-boilerplate).
+Technologies utilized in my portfolio include: 
+<br>
+[Canvas](https://github.com/christopher4lis/canvas-boilerplate)
+<br>
+[Bootstrap](http://getbootstrap.com/)
+
+
+
+
+
 
