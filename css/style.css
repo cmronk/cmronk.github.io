@@ -10,6 +10,15 @@ h1 {
     font-family: 'Asap', sans-serif; 
     color:  #F9DC5C;
 }
+
+h3, h2 {
+  margin-top: 1.5rem;
+}
+
+h5 {
+    color: #403F4C;
+}
+
 a {
     color: #3185FC;
 }
@@ -22,13 +31,6 @@ a {
   width: 400px;
   max-height: 275px;
 }
-/* #canvas-wrap { 
-  position:relative; width:800px; height:600px 
-}
-
-#canvas-wrap canvas { 
-  position:absolute; top:0; left:0; z-index:0 
-} */
 
 /* portfolio styling from bootstrap template */
 #portfolio .portfolio-item {
