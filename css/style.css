@@ -24,11 +24,12 @@ h5 {
 }
 
 a {
-    color:#CBF7ED;
+    color:white;
 }
 
 #contact {
   background: #8EA8C3;
+  color: white;
 }
 
 .img-fluid {
@@ -58,7 +59,7 @@ a {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #23395B;
+  background: #8EA8C3;
   color: white;
   text-align: center;
   padding: 20px;
