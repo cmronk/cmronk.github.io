@@ -16,7 +16,7 @@ function resize() {
 
 function resizeCanvas() {
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = 500;
 };
 
 canvas.width = innerWidth;
@@ -27,7 +27,7 @@ const mouse = {
     y: innerHeight / 2
 }
 
-const colors = ['#403F4C', '#E84855', '#F9DC5C', '#3185FC', '#EFBCD5'];
+const colors = ['#161925', '#23395B', '#406E8E', '#8EA8C3', '#CBF7ED'];
 // const colors = ['#5386E4', '#4C4B63', '#949396', '#ABA8B2', '#C3C3C3'];
 
 
@@ -39,7 +39,7 @@ addEventListener('mousemove', event => {
 
 addEventListener('resize', () => {
     canvas.width = innerWidth
-    canvas.height = innerHeight
+    canvas.height = 500
 
     init()
 })

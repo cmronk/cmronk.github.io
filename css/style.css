@@ -1,14 +1,18 @@
 #mainNav {
-    background-color: #403F4C;
+    background-color: #8EA8C3;
 }
 body {
-    font-family: 'Archivo Narrow', sans-serif;  
-    background-color: #E84855; 
-    color: #EFBCD5; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;;  
+    background-color: #161925; 
+    color: #406E8E; 
 }
 h1 {
-    font-family: 'Asap', sans-serif; 
-    color:  #F9DC5C;
+  font-family: 'Shadows Into Light', cursive;    
+  color:  white;
+}
+
+#about, #contact {
+  padding-top: 50px;
 }
 
 h3, h2 {
@@ -16,15 +20,15 @@ h3, h2 {
 }
 
 h5 {
-    color: #403F4C;
+    color: #8EA8C3;
 }
 
 a {
-    color: #3185FC;
+    color:#CBF7ED;
 }
 
 #contact {
-  background: #403F4C;
+  background: #8EA8C3;
 }
 
 .img-fluid {
@@ -54,7 +58,10 @@ a {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: #23395B;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -69,7 +76,6 @@ a {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: white;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -86,7 +92,8 @@ a {
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  background-color: #161925;
+  color: white;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {

@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Asap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Yanone+Kaffeesatz" rel="stylesheet">
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.icon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.icon.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -46,7 +46,8 @@
                             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="https://drive.google.com/file/d/1Vse-GR0XAvGf5XKv-4DS6Kh24aJ2scag/view?usp=sharing" target="_blank">Resume</a>
+                            <a class="nav-link js-scroll-trigger" href="https://drive.google.com/file/d/1Vse-GR0XAvGf5XKv-4DS6Kh24aJ2scag/view?usp=sharing"
+                                target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -56,6 +57,7 @@
         <!-- interactive canvas -->
         <canvas class="particles" width="2880" height="500" style="width: 100%"></canvas>
 
+        <!-- about -->
         <header class="masthead text-center d-flex" id="about">
             <div class="container my-auto">
                 <div class="row">
@@ -66,7 +68,8 @@
                         <hr>
                     </div>
                     <div class="col-lg-8 mx-auto">
-                        <h5 class="text-faded mb-5">Hello, I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to solve real world problems, as well as develop and entertain with creativity.</h5>
+                        <h5 class="text-faded mb-5">Hello, I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to
+                            solve real world problems, as well as develop and entertain with creativity.</h5>
                     </div>
                 </div>
             </div>
@@ -93,12 +96,14 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>Hangman style game designed to test out your Lord of the Rings knowledge.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/books.jpeg" alt="Word Guess">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Word-Guess-Game</h4>
+                            <h4>Word-Guess</h4>
                             <p class="text-muted">Welcome to the Shire</p>
+                            <a href="https://github.com/cmronk/Word-Guess-Game" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- LIGHT COLLECTOR GAME -->
@@ -108,12 +113,14 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>Use your memory skills to get to the target number shown at each round start.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/lightcollector.jpeg" alt="Collector Game">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Light Collector</h4>
                             <p class="text-muted">Memory & Math </p>
+                            <a href="https://github.com/cmronk/unit-4-game" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- TRAIN SCHEDULER -->
@@ -123,12 +130,15 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>See when trains will arrive and create your own train. Technologies used include Moment.js
+                                    & Firebase</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/train-img.jpeg" alt="Train">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Train Scheduler</h4>
                             <p class="text-muted">Add a Train!</p>
+                            <a href="https://github.com/cmronk/Train-Scheduler" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- GifTastic app -->
@@ -138,12 +148,14 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>It's off to work we go! Get yo Gifs here. App is made with the Giphy API.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/snow.jpeg" alt="Giphy">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Giphy</h4>
                             <p class="text-muted">Get Yo Gif On!</p>
+                            <a href="https://github.com/cmronk/GifTastic" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- VIKI -->
@@ -153,12 +165,16 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>A fun application that provides an on-screen piano keyboard and a Youtube playlist to teach
+                                    you piano! App is brought to you by Tone.js, Firebase, the YOUTUBE API & Bootstrap.
+                                </p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/music.jpeg" alt="VIKI">
                         </a>
                         <div class="portfolio-caption">
                             <h4>VIKI</h4>
                             <p class="text-muted">Learn to Play Piano</p>
+                            <a href="https://github.com/cmronk/VIKI" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- Friend-Finder -->
@@ -168,12 +184,14 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>A personality quiz that will find you a friend from the wonderful world of Dr. Suess. Node, Express and Bootstrap were the main stars.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/friendfinder.png" alt="Friend-Finder">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Find a Friend</h4>
                             <p class="text-muted">Don't delay! Today!</p>
+                            <a href="https://github.com/cmronk/friend-finder" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- Eat the burgers -->
@@ -183,30 +201,35 @@
                                 <div class="portfolio-hover-content">
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
+                                <p>This application uses the MVC architecture, a custom ORM, Handlebars, Node, mySQL and Express.
+                                    Eat the Burgers lets users create and then consume burgers.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/burger.png" alt="Eat Burgers">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Eat & Create Burgers</h4>
                             <p class="text-muted">No Calories</p>
+                            <a href="https://github.com/cmronk/burger" target="_blank">Code here</a>
                         </div>
                     </div>
                     <!-- Storyboard -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a class="portfolio-link" a href="https://storyboardadventures.herokuapp.com/dashboard" target="_blank">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-plus fa-3x"></i>
-                                    </div>
+                        <a class="portfolio-link" a href="https://storyboardadventures.herokuapp.com/dashboard" target="_blank">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
                                 </div>
-                                <img class="img-fluid" src="img/portfolio/thumbnails/story.png" alt="Storyboard">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Storyboard Adventures</h4>
-                                <p class="text-muted">Create!</p>
+                                <p>MVC structured application that allows users to create and collaborate to write stories.</p>
                             </div>
+                            <img class="img-fluid" src="img/portfolio/thumbnails/story.png" alt="Storyboard">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>Storyboard Adventures</h4>
+                            <p class="text-muted">Create!</p>
+                            <a href="https://github.com/cmronk/storyboard" target="_blank">Code here</a>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
         <!-- contact section -->
@@ -214,17 +237,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">Connect With Me!</h2>
+                        <h2 class="section-heading">CONNECT WITH ME!</h2>
                         <br>
                         <div class="connect">
                             <a href="https://github.com/cmronk" target="_blank">
-                                <img src="img/github.svg" height=75px width=75px>
+                                <img src="img/github.svg" height=45px width=45px>
                             </a>
                             <a href="https://linkedin.com/in/christine-ronk-61244b152" target="_blank">
-                                <img src="img/Linkedin.svg.png" height=75px width=75px>
+                                <img src="img/Linkedin.svg.png" height=45px width=45px>
                             </a>
                             <a href="https://stackexchange.com/users/12928161/christine-ronk" target="_blank">
-                                <img src="img/stackoverflow.png" height=75px width=75px>
+                                <img src="img/stackoverflow.png" height=45px width=45px>
                             </a>
                         </div>
                         <br>
