@@ -81,19 +81,19 @@ footer {
   margin: 0 0 15px;
   opacity: 0.7;
 }
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item {
   position: relative;
   display: block;
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-hover {
   position: absolute;
   width: 80%;
   height: auto;
   margin-top: 35px;
-  margin-left: 35px;
+  margin-left: 25px;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -103,10 +103,10 @@ footer {
   text-align: center;
   padding: 20px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-hover:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -115,11 +115,11 @@ footer {
   margin-top: -12px;
   text-align: center;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
