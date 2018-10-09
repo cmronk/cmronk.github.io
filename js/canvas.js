@@ -32,8 +32,8 @@ const mouse = {
 // blue theme
 // const colors = ['#161925', '#23395B', '#406E8E', '#8EA8C3', '#CBF7ED'];
 // yellow and pink theme
-const colors = ['#0C0F0A', '#FF206E', '#FBFF12', '#41EAD4', '#FFFFFF'];
-
+// brown/pink theme
+const colors = ['#6B6D76', '#A69888', '#FCBFB7', '#334E58', '#33261D'];
 
 // Event Listeners
 addEventListener('mousemove', event => {
