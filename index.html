@@ -13,6 +13,9 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.icon.png" type="image/x-icon">
     <link rel="icon" href="img/favicon.icon.png" type="image/x-icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -37,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#page-top">About</a>
+                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -68,7 +71,8 @@
                         <hr>
                     </div>
                     <div class="col-lg-8 mx-auto">
-                        <h5 class="text-faded mb-5">Hello, I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to
+                        <h5 class="text-faded mb-5">Hello, I am a Full Stack Web Developer with a focus on serving
+                            people. Armed with coffee, I aim to
                             solve real world problems, as well as develop and entertain with creativity.</h5>
                     </div>
                 </div>
@@ -89,31 +93,11 @@
                         <h3 class="section-subheading text-muted">Recent Projects.</h3>
                     </div>
                 </div>
-                <!-- WORD GUESS GAME -->
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" a href="https://cmronk.github.io/Word-Guess-Game/" target="_blank">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>Hangman style game designed to test out your Lord of the Rings knowledge.</p>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/thumbnails/books.jpeg" alt="Word Guess">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Word-Guess</h4>
-                            <p class="text-muted">Welcome to the Shire</p>
-                            <a class="text-muted" href="https://github.com/cmronk/Word-Guess-Game" target="_blank">(View Code)</a>
-                        </div>
-                    </div>
                     <!-- LIGHT COLLECTOR GAME -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" a href="https://cmronk.github.io/unit-4-game/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
                                 <p>Use your memory skills to get to the target number shown at each round start.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/lightcollector.jpeg" alt="Collector Game">
@@ -121,17 +105,16 @@
                         <div class="portfolio-caption">
                             <h4>Light Collector</h4>
                             <p class="text-muted">Memory & Math </p>
-                            <a class="text-muted" href="https://github.com/cmronk/unit-4-game" target="_blank">(View Code)</a>
+                            <a class="text-muted" href="https://github.com/cmronk/unit-4-game" target="_blank">(<i
+                                    class="fa fa-code" aria-hidden="true"></i>View Code)</a>
                         </div>
                     </div>
                     <!-- TRAIN SCHEDULER -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" a href="https://cmronk.github.io/Train-Scheduler/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>See when trains will arrive and create your own train. Technologies used include Moment.js
+                                <p>See when trains will arrive and create your own train. Technologies used include
+                                    Moment.js
                                     & Firebase</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/train-img.jpeg" alt="Train">
@@ -139,16 +122,14 @@
                         <div class="portfolio-caption">
                             <h4>Train Scheduler</h4>
                             <p class="text-muted">Add a Train!</p>
-                            <a class="text-muted" href="https://github.com/cmronk/Train-Scheduler" target="_blank">(View Code)</a>
+                            <a class="text-muted" href="https://github.com/cmronk/Train-Scheduler" target="_blank">(<i
+                                    class="fa fa-code" aria-hidden="true"></i>View Code)</a>
                         </div>
                     </div>
                     <!-- GifTastic app -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" a href="https://cmronk.github.io/GifTastic/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
                                 <p>It's off to work we go! Get yo Gifs here. App is made with the Giphy API.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/snow.jpeg" alt="Giphy">
@@ -156,99 +137,127 @@
                         <div class="portfolio-caption">
                             <h4>Giphy</h4>
                             <p class="text-muted">Get Yo Gif On!</p>
-                            <a class="text-muted" href="https://github.com/cmronk/GifTastic" target="_blank">(View Code)</a>
+                            <a class="text-muted" href="https://github.com/cmronk/GifTastic" target="_blank">(<i class="fa fa-code"
+                                    aria-hidden="true"></i>View Code)</a>
                         </div>
                     </div>
-                    <!-- VIKI -->
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" a href="https://cmronk.github.io/VIKI/" target="_blank">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>A fun application that provides an on-screen piano keyboard and a Youtube playlist to teach
-                                    you piano! App is brought to you by Tone.js, Firebase, the YOUTUBE API & Bootstrap.
-                                </p>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/thumbnails/music.jpeg" alt="VIKI">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>VIKI</h4>
-                            <p class="text-muted">Learn to Play Piano</p>
-                            <a class="text-muted" href="https://github.com/cmronk/VIKI" target="_blank">(View Code)</a>
-                        </div>
-                    </div>
+                </div>
+                <div class="row">
                     <!-- Friend-Finder -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" a href="https://fast-sands-72490.herokuapp.com/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>A personality quiz that will find you a friend from the wonderful world of Dr. Suess. Node, Express and Bootstrap were the main stars.</p>
+                                <p>A personality quiz that will find you a friend from the wonderful world of Dr.
+                                    Suess.
+                                    Node, Express and Bootstrap were the main stars.</p>
                             </div>
                             <img class="img-fluid" src="img/portfolio/thumbnails/friendfinder.png" alt="Friend-Finder">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Find a Friend</h4>
                             <p class="text-muted">Don't delay! Today!</p>
-                            <a class="text-muted" href="https://github.com/cmronk/friend-finder" target="_blank">(View Code)</a>
+                            <a class="text-muted" href="https://github.com/cmronk/friend-finder" target="_blank">(<i
+                                    class="fa fa-code" aria-hidden="true"></i>View Code)</a>
                         </div>
                     </div>
-                    <!-- Eat the burgers -->
+                    <!-- CLICKY -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" a href="https://lit-tundra-84738.herokuapp.com/burgers" target="_blank">
+                        <a class="portfolio-link" a href="https://cmronk.github.io/clickyclickclickity/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>This application uses the MVC architecture, a custom ORM, Handlebars, Node, mySQL and Express.
-                                    Eat the Burgers lets users create and then consume burgers.</p>
+                                <p>Dr. Seuss React game designed to test your memory. </p>
                             </div>
-                            <img class="img-fluid" src="img/portfolio/thumbnails/burger.png" alt="Eat Burgers">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/screenshot.png" alt="Word Guess">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Eat & Create Burgers</h4>
-                            <p class="text-muted">No Calories</p>
-                            <a class="text-muted" href="https://github.com/cmronk/burger" target="_blank">(View Code)</a>
-                        </div>
-                    </div>
-                    <!-- Storyboard -->
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a class="portfolio-link" a href="https://storyboardadventures.herokuapp.com/dashboard" target="_blank">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>MVC structured application that allows users to create and collaborate to write stories.</p>
-                            </div>
-                            <img class="img-fluid" src="img/portfolio/thumbnails/story.png" alt="Storyboard">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Storyboard Adventures</h4>
-                            <p class="text-muted">Create!</p>
-                            <a class="text-muted" href="https://github.com/cmronk/storyboard" target="_blank">(View Code)</a>
+                            <h4>Clicky</h4>
+                            <p class="text-muted">One Click, Two Click...</p>
+                            <a class="text-muted" href="https://github.com/cmronk/clickyclickclickity/" target="_blank">(<i
+                                    class="fa fa-code" aria-hidden="true"></i>View Code)</a>
                         </div>
                     </div>
                     <!-- Scraper -->
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <a class="portfolio-link" a href="https://glacial-escarpment-81369.herokuapp.com/" target="_blank">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                                <p>Science Scraper is an application that allows users to scrape articles from Popular Mechanics, save articles and add their comments..</p>
+                                <p>Science Scraper is an application that allows users to scrape articles from Popular
+                                    Mechanics, save articles and add their comments..</p>
                             </div>
-                            <img class="img-fluid" src="img/portfolio/thumbnails/scraperDemo.gif" alt="Scraper">
+                            <img class="img-fluid" src="img/portfolio/thumbnails/scraperDemo.gif" height="200px" width="250px"
+                                alt="Scraper">
                         </a>
                         <div class="portfolio-caption">
                             <h4>Science Scraper</h4>
                             <p class="text-muted">Get your science fix!</p>
-                            <a class="text-muted" href="https://github.com/cmronk/mongoscrape" target="_blank">(View Code)</a>
+                            <a class="text-muted" href="https://github.com/cmronk/mongoscrape" target="_blank">(<i
+                                    class="fa fa-code" aria-hidden="true"></i>View Code)</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h3 class="section-subheading text-muted">Group Projects</h3>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="row">
+                        <!-- VIKI -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a class="portfolio-link" a href="https://cmronk.github.io/VIKI/" target="_blank">
+                                <div class="portfolio-hover">
+                                    <p>A fun application that provides an on-screen piano keyboard and a Youtube
+                                        playlist to
+                                        teach
+                                        you piano! App is brought to you by Tone.js, Firebase, the YOUTUBE API &
+                                        Bootstrap.
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/thumbnails/music.jpeg" alt="VIKI">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>VIKI</h4>
+                                <p class="text-muted">Learn to Play Piano</p>
+                                <a class="text-muted" href="https://github.com/cmronk/VIKI" target="_blank">(<i class="fa fa-code"
+                                        aria-hidden="true"></i>View Code)</a>
+                            </div>
+                        </div>
+
+                        <!-- Storyboard -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a class="portfolio-link" a href="https://storyboardadventures.herokuapp.com/dashboard"
+                                target="_blank">
+                                <div class="portfolio-hover">
+                                    <p>MVC structured application that allows users to create and collaborate to write
+                                        stories.</p>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/thumbnails/story.png" alt="Storyboard">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Storyboard Adventures</h4>
+                                <p class="text-muted">Create!</p>
+                                <a class="text-muted" href="https://github.com/cmronk/storyboard" target="_blank">(<i
+                                        class="fa fa-code" aria-hidden="true"></i>View Code)</a>
+                            </div>
+                        </div>
+                        <!-- MentorUp -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a class="portfolio-link" a href="https://lit-tundra-84738.herokuapp.com/burgers" target="_blank">
+                                <div class="portfolio-hover">
+                                    <p>MERN app designed to further women in tech by promoting mentorship and
+                                        community.</p>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/thumbnails/mentorupdemo.gif" alt="Eat Burgers">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>MentorUp</h4>
+                                <p class="text-muted">Mentorship for Women in Tech</p>
+                                <a class="text-muted" href="https://agile-caverns-57821.herokuapp.com" target="_blank">(<i
+                                        class="fa fa-code" aria-hidden="true"></i>View Code)</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- contact section -->

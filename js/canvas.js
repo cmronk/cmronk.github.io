@@ -27,8 +27,12 @@ const mouse = {
     y: innerHeight / 2
 }
 
-const colors = ['#161925', '#23395B', '#406E8E', '#8EA8C3', '#CBF7ED'];
-// const colors = ['#5386E4', '#4C4B63', '#949396', '#ABA8B2', '#C3C3C3'];
+
+// const colors = ['#303633', '#8BE8CB', '#7EA2AA', '#888DA7', '#9C7A97'];
+// blue theme
+// const colors = ['#161925', '#23395B', '#406E8E', '#8EA8C3', '#CBF7ED'];
+// yellow and pink theme
+const colors = ['#0C0F0A', '#FF206E', '#FBFF12', '#41EAD4', '#FFFFFF'];
 
 
 // Event Listeners
